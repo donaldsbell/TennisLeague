@@ -1,0 +1,7 @@
+---
+applications:
+- name: CoreDataStructureTooling
+  memory: 64M
+  instances: 1
+  services:
+  - TennisCloudant
