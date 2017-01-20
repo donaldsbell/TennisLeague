@@ -4,6 +4,12 @@ dependencies {
     compile group: 'com.cloudant', name: 'cloudant-client', version: '2.7.0'
 }
 
+repositories {
+	maven {
+		url 'http://repo.gradle.org/gradle/repo'
+	}
+}
+
 jar {
 	manifest {
 		attributes 'Main-Class' : 'org.tennis.core.data.HelloWorld'
